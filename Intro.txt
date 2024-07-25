@@ -1,0 +1,72 @@
+Web development :
+	-  create websites.
+	
+	1) HTML -> Hyper text Markup Language 
+	2) CSS  -> Cascading Style Sheet
+	3) JS	-> Javascript
+
+	i) Front-end Developer 
+		- HTML
+		- CSS
+		- JS 
+		- react
+		
+	ii)Back-end Developer
+		- Java 
+		- Python / Django  
+		- SQL
+	iii)Full-stack Developer
+		 Front-end + Back-end 
+(HTML) : -
+=> What is a HTML ?
+-  HTML stands for Hyper text Markup Language.
+
+=> Use :
+-  Create a Structure of Website/webpage.
+	- webpage :- Single HTML File.
+	- Website :- Collection of Multiple Webpages.(HTML Files.)
+
+=> History of HTML : 
+==> Tim Berners-Lee :  (Computer scientist)
+
+-> First Time :  HTML 1.0  => 1991
+		 HTML 1.1
+		 
+		 HTML First Website : 1993
+			- https://info.cern.ch/		 
+				 
+-> 	         HTML 2.0  => 1995
+		 HTML 2.1
+		 
+->		 HTML 3.0  => Jan,1997
+		 
+->		 HTML 4.0  => Dec,1997
+		            - 2000	
+		            
+		 HTML 5.0  => 2014
+		 HTML 5.2    - 2017
+
+Extension of HTML : 1) .html (new)
+		    2) .htm  (old)
+		   =>Both Are Valid 
+		   
+
+
+HTML : 
+	Hyper Text Markup Language
+	1) Hyper Text : Link(Depend on Text)
+		 - hyper : (re-direct / going up / hype )  Linking
+		 - Text  : normal Text/content 
+	2) Markup Language : 
+		- Text en-coding System 
+		
+		
+		
+HTML is not a Programming Language.it's Markup Language/Computer Language.
+
+=> what is Tag ?
+=> What is HTML ? 
+=> What is Doctype ? 
+=> HTML case sensitive or Not with Example ? 
+=> Founder of HTML ?  
+

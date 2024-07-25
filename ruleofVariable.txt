@@ -1,0 +1,43 @@
+Rule of Variables : 
+	-  Always try to Use Meaningful Variable Name.
+		a = 5    	X
+		Age = 5  	✅
+		n = 5           X
+		number1 = 5	✅
+		xy = 5		X
+		score = 5	✅
+		
+	- never Start Variable name with Digits.
+		1number = 5	X
+		number1 = 5	✅
+		n1mber = 5	✅
+		
+	- never Use Special Char.   ( _ )	
+		number@1 = 5;   X
+		number_1 = 10;  ✅
+		
+	- Never Use white Space between Variable Name.
+		number 1 = 12   X
+		number1 = 12    ✅
+	
+	- Never Use Keywords as a Variable Name.
+		int  = 5	X
+		int1 = 5	✅
+		
+	- Variable name Are Case Sensitive.
+		number1 
+		Number1
+		numbeR1 
+	
+
+1) what is C Language ?
+2) what is the Structure of C ? with Explanation.
+3) what is Token ? 
+4) what is Keyword ?
+5) What is Variable ? 
+6) write down rule of Variable.
+7) What is Operator? List out Them.
+8) Explain Type Casting ? with Multiple Example.
+
+
+
