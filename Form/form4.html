@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    
+    <form action="Thanks.html" method="">
+        <fieldset>
+            <legend align="center"><h2>Basic Info</h2></legend>
+        <label for="fname">First name :</label> <input type="text" name="fname" placeholder="Enter your Name" id="fname" pattern="[A-Z]+">
+        <!-- required -->
+        <br><br>
+        Last Name : <input type="text" name="lname" readonly value="Temp">
+        <br><br>
+        Gender : 
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender" id="female"><label for="female">Female</label>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><h2>Personal Info</h2></legend>
+        Email : <input type="email" name="email" value="sdfg@gmail.com" disabled>
+        <br><br>
+        Password : <input type="password" name="pwd">
+        <br><br>
+        Contact Number : <input type="number">
+    </fieldset>
+        <br><br>
+        <input type="submit" value="Login">
+
+    </form>
+</body>
+</html>
+
+<!-- 
+pattern : 
+
+1) Single Char
+[A-Z]
+[a-z]
+[0-9]
+
+
+2) one or More than One
+[A-Z]+
+[a-z]+
+[0-9]+
+
+
+3) 
+
+
+-->
