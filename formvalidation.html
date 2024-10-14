@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <form>
+        <!-- <label for="fname">First Name : </label><input type="text" name="fname" id="fname" pattern="[A-Z][a-z]{1,9}" required> -->
+        <!-- minlength="2" maxlength="10" -->
+        <br><br>
+        <label for="email">Email : </label><input type="text" name="email" id="email">
+        <br><br>
+        <label for="pwd">Password : </label><input type="text" name="pwd" id="pwd">
+        <br><br>
+        <!-- Phone No : <input type="tel" name="phoneno" pattern="[6789][0-9]{9}">
+        <input type="tel" name="Phone" pattern="[0-9]{4}[-][0-9]{3}[-][0-9]{3}"> -->
+        <input type="text" name="temp" value="1" readonly>
+        <br><br>
+        <input type="text" name="temp2" value="2" disabled>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+
+<!-- 
+pattern : 
+1) [A-Z]   : any single char
+   [a-z] 
+   [0-9]
+   [-!@#$%]
+
+
+
+
+2) [A-Z]{2,}  : min two char max infinite
+   [a-z]{2,}
+   [0-9]{2,} 
+
+3) [A-Z]{2,10} : min two char max ten char
+-->
+
+
+
+<!-- 
+
+6789   1 digit
+0-9    9 digit
+[0-9]
+[6789]
+
+1234-456-678
+
+
+[0-9]{4}
+1234
+3333
+8765
+4567
+-->
+
+
+
+<!-- 
+email validation : [a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$
+
+password : (?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}
+-->
